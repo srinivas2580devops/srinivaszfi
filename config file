@@ -1,0 +1,12 @@
+name: ShiftLeft
+
+on:
+  pull_request:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+  schedule:
+    - cron:  '30 5,17 * * *'
+...
